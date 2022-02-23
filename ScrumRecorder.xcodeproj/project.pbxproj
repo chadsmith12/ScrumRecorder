@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C78C265727C5E48700248AB2 /* ScrumRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C265627C5E48700248AB2 /* ScrumRecorderApp.swift */; };
-		C78C265927C5E48700248AB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C265827C5E48700248AB2 /* ContentView.swift */; };
+		C78C265927C5E48700248AB2 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C265827C5E48700248AB2 /* MeetingView.swift */; };
 		C78C265B27C5E48900248AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78C265A27C5E48900248AB2 /* Assets.xcassets */; };
 		C78C265E27C5E48900248AB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78C265D27C5E48900248AB2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		C78C265327C5E48700248AB2 /* ScrumRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78C265627C5E48700248AB2 /* ScrumRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumRecorderApp.swift; sourceTree = "<group>"; };
-		C78C265827C5E48700248AB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C78C265827C5E48700248AB2 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		C78C265A27C5E48900248AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C78C265D27C5E48900248AB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				C78C265627C5E48700248AB2 /* ScrumRecorderApp.swift */,
-				C78C265827C5E48700248AB2 /* ContentView.swift */,
+				C78C265827C5E48700248AB2 /* MeetingView.swift */,
 				C78C265A27C5E48900248AB2 /* Assets.xcassets */,
 				C78C265C27C5E48900248AB2 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78C265927C5E48700248AB2 /* ContentView.swift in Sources */,
+				C78C265927C5E48700248AB2 /* MeetingView.swift in Sources */,
 				C78C265727C5E48700248AB2 /* ScrumRecorderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

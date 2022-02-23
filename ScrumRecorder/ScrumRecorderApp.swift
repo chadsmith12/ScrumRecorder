@@ -11,7 +11,7 @@ import SwiftUI
 struct ScrumRecorderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView()
         }
     }
 }
