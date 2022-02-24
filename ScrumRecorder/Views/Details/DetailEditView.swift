@@ -24,6 +24,7 @@ struct DetailEditView: View {
                     Text("\(Int(data.lengthInMinutes)) minutes")
                         .accessibilityHidden(true)
                 }
+                ThemePicker(selection: $data.theme)
             }, header: { Text("Meeting Info") })
             Section(content: {
                 ForEach(data.attendees) { attendee in

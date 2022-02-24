@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// Represents all the themes in the application, and the current theme the application is using
-enum Theme: String {
+enum Theme: String, CaseIterable, Identifiable {
     case bubblegum
     case buttercup
     case indigo
@@ -45,5 +45,10 @@ enum Theme: String {
     /// Provides a captialized version of the theme as the name
     var name: String {
         rawValue.capitalized
+    }
+    
+    /// The id of the theme is the name
+    var id: String {
+        name
     }
 }
