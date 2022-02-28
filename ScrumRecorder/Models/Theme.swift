@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// Represents all the themes in the application, and the current theme the application is using
-enum Theme: String, CaseIterable, Identifiable {
+enum Theme: String, CaseIterable, Identifiable, Codable {
     case bubblegum
     case buttercup
     case indigo
